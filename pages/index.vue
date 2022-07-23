@@ -4,6 +4,8 @@
     <hr />
     <router-link to="/price">Price Page</router-link>
     <router-link to="/myPage">My Page</router-link>
+    <router-link to="/users/">User Page</router-link>
+    <router-link to="/users/other">Other Users Page</router-link>
   </section>
 </template>
 
