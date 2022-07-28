@@ -5,6 +5,10 @@
         {{ comment.id }} , {{ comment.name }} , {{ comment.email }}
       </li>
     </ul>
+    <div>
+      <!-- ~を利用することでassetsを指定できる -->
+      <img src="~/assets/IMG_0268.JPG" />
+    </div>
   </section>
 </template>
 
