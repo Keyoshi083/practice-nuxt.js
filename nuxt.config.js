@@ -27,6 +27,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/typescript
     "@nuxt/typescript-build",
+    "nuxt-typed-vuex",
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -42,5 +43,7 @@ export default {
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {
+    transpile: [/typed-vuex/],
+  },
 };
