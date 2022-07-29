@@ -1,4 +1,5 @@
 <template>
+  <!-- Vuexの学習 Start -->
   <section class="container">
     <div>
       <!-- <p>{{ $store.state.message }}</p> -->
